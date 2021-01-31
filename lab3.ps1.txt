@@ -1,0 +1,6 @@
+$IP = (get-netipaddress).ipv4address | Select-String "192*"
+$USER = $env:USERNAME
+$HOSTNAME = [System.Net.DNS]::GetHostName()
+$VERSION = $HOST.Version.Major
+$TODAY = (Get-Date -format 'D')
+$BODY = "This machine's IP is $IP. User is $USER. Hostname is $HOSTNAME. Powershell Version is $VERSION. Today's Date is $TODAY."
