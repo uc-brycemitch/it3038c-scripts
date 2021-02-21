@@ -1,6 +1,7 @@
 the project1 scripts imports the date and time from the virutal machine. I created a new variable equal to the 
 current date and time so that it could be outputted to the user.
 I structured the date and time so it was easier to read. 
+By pressing run the terminal outputs the time and date from the virtual machine. No input is needed from the user. 
 
 I learned about the python now() attribute and about python date and time from here : 
 www.geeksforgeeks.org/get-current-date-and-time-using-python/
