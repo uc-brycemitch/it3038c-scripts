@@ -5,5 +5,8 @@ import datetime;
 currentTime = datetime.datetime.now();
 
 #printing out the date and time to the terminal
-print("The date and time on the VM is: ");
-print (currentTime);
+print("The date on the VM is: ");
+print (currentTime.month, "/", currentTime.day, "/", currentTime.year )
+
+print("The time on the VM is: ");
+print(currentTime.hour, ":", currentTime.minute);
