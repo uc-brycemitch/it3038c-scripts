@@ -1,0 +1,2 @@
+the project1 scripts imports the date and time from the virutal machine. I created a new variable equal to the 
+current date and time so that it could be outputted to the user.
