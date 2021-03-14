@@ -4,7 +4,7 @@ Then, I went into the command prompt and typed in the following commands (pip is
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade Pillow
 
-My projects allows the user to add text to a photo using the Pillow Plugin. I built this off of the previous plugin lab we used. Rather than adding filters, I focused on the text aspect.
+My project takes user input to add text to a photo using the Pillow Plugin. I built this off of the previous plugin lab we used. Rather than adding filters, I focused on the text aspect.
 I used the Pillow tutorial located here to build my code: https://www.tutorialspoint.com/python_pillow/python_pillow_quick_guide.htm
 
 To use the code, you must download the code and the "puppy.jpg" photo. 
