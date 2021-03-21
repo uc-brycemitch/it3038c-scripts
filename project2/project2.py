@@ -3,6 +3,7 @@ import os
 import PIL as Pillow
 from PIL import Image, ImageFilter, ImageDraw, ImageFont
 
+from PIL.ImageFilter import (CONTOUR)
 #Collecting user input
 text = input('Enter what the text you want on the photo: ')
 
@@ -20,8 +21,9 @@ x = width - textwidth - margin
 y = height - textwidth - margin
 
 #drawing words on picture and appying filter
-draw.text((x,y), text, font=font)
+hi = draw.text((x,y), text, font=font)
 
 #showing the image
-im.show()
+contouredImage = hi.filter(CONTOUR)
+contouredImage.show()
 
