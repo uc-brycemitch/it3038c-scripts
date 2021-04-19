@@ -18,15 +18,16 @@ venv\Scripts\activate.bat
 
 pip install flask
 
-#you will need to cd to the place you downloaded web.py
 python web.py
+#before python web.py you will need to cd to the directory that you downloaded it to#
 
 ########## AFTER FLASK INSTALL ##########
 
 In Visual Studio, in order for the code to work, you must choose a python interpreter. 
 Hit CTRL+T and enter ">Python: Select Interpreter"
-From there, you will have to select a path. 
-The path is: C:\Users\Administrator\venv\Scripts\flask
+From there, you will have to select a new path, not the one provided.
+Click "Find..."
+Navigate to the path C:\Users\Administrator\venv\Scripts\flask
 
 After that, you can navigate to localhost:5000 in the browser and it will ask you to input information. 
 After that, click submit and the mad libs story appears. 
