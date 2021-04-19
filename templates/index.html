@@ -1,8 +1,37 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<p><em>What is your name?</em>
-    <form action="/welcome" method="POST"><input name="myName"><input type="submit"
-    value="Submit"></form>
+<p>
+<form action="/welcome" method="POST">
+ <!--This is the form that collects the data for the mad lib generator, max length of 50 characters for each so that it cannot be broken-->
+    <label for="animal">Name an animal: </label><br/>
+    <input type="text" name="animal" maxlength="50" /><br/>
+
+    <label for="country">Name a country: </label><br/>
+    <input type="text" name="country" id="country" maxlength="50" /><br/>
+
+    <label for="pluralNoun">Name a plural noun: </label><br/>
+    <input type="text" name="pluralNoun" id="pluralNoun" maxlength="50" /><br/>
+
+    <label for="food">Name a food: </label><br/>
+    <input type="text" name="food" id="food" maxlength="50" /><br/>
+
+    <label for="screen">Name a screen device: </label><br/>
+    <input type="screen" name="screen" id="screen" maxlength="50" /><br/>
+
+    <label for="noun">Name a noun: </label><br/>
+    <input type="text" name="noun" id="noun" maxlength="50" /><br/>
+
+    <label for="verb">Name a verb: </label><br/>
+    <input type="text" name="verb" id="verb" maxlength="50" /><br/>
+
+    <label for="verb2">Name another verb: </label><br/>
+    <input type="text" name="verb2" id="verb2" maxlength="50" /><br/>
+
+    <label for="adjective">Name an adjective: </label><br/>
+    <input type="text" name="adjective" id="adjective" maxlength="50" /><br/>
+    
+    <input type="submit" name='submit' value="Submit">
+</form>
 </p>
 {% endblock %}
