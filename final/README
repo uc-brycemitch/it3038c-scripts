@@ -1,7 +1,7 @@
 README
 
-My project uses the flask app to generate a mad libs story for the user. It takes input from the user using a form, and then it
-ouputs it in the form of a mad lib story. 
+My project uses the flask app to generate a mad libs story for the user. It builds off Lab11, but makes it a bit more interactive.
+It takes input from the user using a form, and then it ouputs it in the form of a mad lib story. 
 
 
 For my final, you need to download everything within the final folder (routes.py, web.py, and the templates folder)
