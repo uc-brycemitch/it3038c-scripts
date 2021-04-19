@@ -1,0 +1,33 @@
+README
+
+My project uses the flask app to generate a mad libs story for the user. It takes input from the user using a form, and then it
+ouputs it in the form of a mad lib story. 
+
+
+For my final, you need to download everything within the final folder (routes.py, web.py, and the templates folder)
+Do not remove anything from the templates folder, they need to remain in that folder to work. 
+
+########## BEFORE RUNNING ##########
+
+You will need to install flask:
+In the command prompt enter
+
+py -3 -m venv venv
+
+venv\Scripts\activate.bat
+
+pip install flask
+
+#you will need to cd to the place you downloaded web.py
+python web.py
+
+########## AFTER FLASK INSTALL ##########
+
+In Visual Studio, in order for the code to work, you must choose a python interpreter. 
+Hit CTRL+T and enter ">Python: Select Interpreter"
+From there, you will have to select a path. 
+The path is: C:\Users\Administrator\venv\Scripts\flask
+
+After that, you can navigate to localhost:5000 in the browser and it will ask you to input information. 
+After that, click submit and the mad libs story appears. 
+
